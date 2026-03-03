@@ -1,3 +1,6 @@
+import '../models/recipe.dart';
+import 'package:flutter/material.dart';
+
 class DetailsScreen extends StatelessWidget {
   final Recipe recipe;
   const DetailsScreen({super.key, required this.recipe});
